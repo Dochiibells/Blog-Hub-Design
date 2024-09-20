@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+
+    <!-- Header -->
     <header>
         <nav class="header-elements">
             <div class="logo-top"><a href="#body" id="title-logo">Blog Hub.</a></div>
@@ -22,9 +24,10 @@
         </nav>
     </header>
 
+    <!-- Home Page -->
     <section id="home">
         <div class="left-part">
-            <div class="home-title" style="font-size: 3.5rem; font-weight: 700; font-style: italic; ">Best of the Week <a href="#posts" style="font-size: small; font-weight: 100;">See allposts →</a></div>
+            <div class="home-title" style="font-size: 3.8rem; font-weight: 700; font-style: italic; ">Best of the Week <a href="#posts" style="font-size: small; font-weight: 500; text-decoration: underline;">See allposts →</a></div>
             <img src="img/20240606_145003.jpg" alt="Malolos" style="max-width: 45rem; height: 30rem; object-fit: cover;">
         </div>
         <div class="righ-part">
@@ -34,21 +37,25 @@
         </div>
     </section>
 
+    <!-- About Page -->
     <section id="about">
         <h1 class="page-title">Know more about me.</h1>
         <div class="about-container">
             <div class="intro">
                 <h1 style="font-size: 4rem;">Hi<br>I'm <span id="name" style="
-                    background: linear-gradient(to right, rgb(46, 46, 226), #061721);
+                    background: linear-gradient(to right, #0e57d5, #1b212c);
                     background-clip: text;
                     color: transparent;">Gian Carlo,</span><br> a BSIT Student</h1>
-                <p style="width: 32em; line-height: 1.8rem; text-align: right; font-size: 1.1rem;">I am a 3rd Year BSIT Student studying in Bulacan State University - Sarmiento Campus.
+                <p style="width: 32em; line-height: 1.8rem; text-align: right; font-size: 1.1rem; margin-bottom: 0;">I am a 3rd Year BSIT Student studying in Bulacan State University - Sarmiento Campus.
                     I am interested in learning new things, exploring, and camping.</p>  
-                    <div class="social-links">
+                    <div>
+                      <p style="font-family: monospace; font-size:x-large; margin: 0 0 10px 5px;">Follow me on.</p>
+                      <div class="social-links">
                         <a href="https://www.facebook.com/giancarlo.villar.35" class="home__social-icon" target="_blank"><i class='bx bxl-facebook' id="icon"></i></a>
                         <a href="https://www.instagram.com/gagstie2/" class="home__social-icon" target="_blank"><i class='bx bxl-instagram' id="icon"></i></a>
                         <a href="https://github.com/Dochiibells" class="home__social-icon" target="_blank"><i class='bx bxl-github' id="icon"></i></a>
-                    </div>           
+                    </div> 
+                    </div>          
             </div>
             <div class="profile-pic">
                 <img src="img/96315765310.png" alt="Gian Pogi" style=" height: 30em;">
@@ -56,6 +63,7 @@
         </div>
     </section>
 
+    <!-- My Posts Page -->
     <section id="posts">
         <h1 class="page-title">My Popular Posts.</h1>
       
@@ -67,7 +75,7 @@
               <img src="img/Groovy.png" alt="post 1">
             </div>
             <div class="post-content" style="padding: 20px;">
-              <div class="post-title">Groovy</div>
+              <div class="post-title">❝Groovy❞</div>
               <div class="circles" style="display: flex; gap: 10px;">
                 <div class="circle" style="background-color: #fcea87;"></div>
                 <div class="circle" style="background-color: #f8a48d;"></div>
@@ -89,7 +97,7 @@
           <!-- Second Post -->
           <div class="post">
             <div class="post-content" style="padding: 20px;">
-              <div class="post-title" style="text-align: right;">Medieval</div>
+              <div class="post-title" style="text-align: right;">❝Medieval❞</div>
               <div class="circles" style="display: flex; justify-content: flex-end; gap: 10px;">
                 <div class="circle" style="background-color: #1c5154;"></div>
                 <div class="circle" style="background-color: #c8b5a7;"></div>
@@ -117,7 +125,7 @@
               <img src="img/VILLAR_ACTIVITYBURGER_BSIT3D2.png" alt="post 3">
             </div>
             <div class="post-content" style="padding: 20px;">
-              <div class="post-title">BBL Burger</div>
+              <div class="post-title">❝BBL Burger❞</div>
               <div class="circles" style="display: flex; gap: 10px;">
                 <div class="circle" style="background-color: #201f1c;"></div>
                 <div class="circle" style="background-color: #f7b318"></div>
@@ -125,7 +133,7 @@
               </div>
               <div class="description">
                 <p style="width: 32em; line-height: 1.8rem; text-align: left; font-size: 1.1rem;">
-                  A visually captivating piece that portrays themes of courage, devotion, faith, and betrayal through powerful imagery and historical symbolism. The dark, atmospheric composition pairs well with gothic-style typography, evoking an intense narrative.
+                  A fiery promotional image showcasing the mouth-watering BBL Burger with a black sesame bun. The sizzling background adds heat to the already enticing burger, emphasizing its tagline, "Taste it to believe it."
                 </p>
               </div>
               <div class="icons" style="display: flex; gap: 15px; margin-top: 20px; font-size: 1.5rem;">
@@ -138,7 +146,8 @@
       
         </div>
     </section>
-      
+    
+    <!-- Footer -->
     <footer style="display: flex; justify-content: center;">
         <p  style="font-family: monospace; font-size: 1.3em;">&#169; All rights reserved 2024.</p>
     </footer>
